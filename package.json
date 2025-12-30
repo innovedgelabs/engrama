@@ -1,0 +1,29 @@
+{
+  "name": "estamos-al-dia-mockup",
+  "version": "1.0.0",
+  "description": "Modern DMS mockup - Object-based document management",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run svgo && vite build",
+    "preview": "vite preview",
+    "svgo": "svgo -f public/businesses/food_manufacturing --multipass"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.0",
+    "@mui/material": "^5.14.0",
+    "@mui/x-charts": "^8.19.0",
+    "fuse.js": "^7.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^7.9.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "svgo": "^3.3.2",
+    "vite": "^4.4.0"
+  }
+}
